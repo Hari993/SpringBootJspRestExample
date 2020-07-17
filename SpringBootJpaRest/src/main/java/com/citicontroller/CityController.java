@@ -14,5 +14,16 @@ public class CityController {
 	    return "Chennai";
 	}
 	
-	
+	private Map<Integer, String> createCiti(){
+		
+		Map<Integer,String> cities = new HashMap<Integer, String>();
+		
+		 cities.put(1, "Chennai");
+		 cities.put(2, "Bangalore");
+		 cities.put(3, "Kolkata");
+		 cities.put(4, "Mumbai");
+		return cities;
+	}
+}
+
 }
